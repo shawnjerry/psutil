@@ -51,7 +51,7 @@ class SysInfo(object):
 
 	def show_user(self):
 		# 输出系统目前的使用用户
-		print('---------Disk--------')
+		print('---------User--------')
 		users = self.users
 		for user in users:
 			print('username: %s, host: %s' % (user.name, user.host))
