@@ -54,7 +54,7 @@ class SysInfo(object):
 		print('---------User--------')
 		users = self.users
 		for user in users:
-		print('username: %s, host: %s' % (user.name, user.host))
+			print('username: %s, host: %s' % (user.name, user.host))
 
 
 a = SysInfo()
